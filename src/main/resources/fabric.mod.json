@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "disablebeans",
+  "version": "${version}",
+  "name": "Disable Beans",
+  "description": "",
+  "license": "unlicense",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "DisableBeans.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
